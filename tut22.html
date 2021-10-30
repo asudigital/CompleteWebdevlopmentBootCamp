@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psedo selectors & more designing</title>
+    <style>
+        .container{
+            border:10px solid red;
+            background-color: rgb(223, 245 , 201);
+            padding: 34px;
+            margin: 100px auto;
+            width: 900px;
+        }
+     
+       a{
+           text-decoration: none;
+           color: red;
+       }
+       a:hover{
+           color: springgreen;
+           background-color: gold;
+       }
+       a:visited{
+           background-color: rgb(14, 13, 13);
+       }
+       a:active{
+           background-color: honeydew;
+       }
+       .btn{
+           /* font-style: italic; */
+           font-family: 'Times New Roman', Times, serif;
+           font-size: larger;
+           font-weight: bold;
+           border: none;
+           background-color: royalblue;
+           padding: 10px;
+           cursor: pointer;
+           font-size:14px;
+           border-radius: 8px;
+       }
+       .btn:hover{
+           color: khaki;
+           background-color: black;
+           border: 5px solid red;
+       }
+
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h3>This is my heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Veritatis dolore quibusdam eaque nulla ducimus praesentium
+          quidem quis. Rerum recusandae veniam voluptatem fugit ullam. 
+          Repellendus nam soluta ipsa quos corporis, earum quas ab dicta porro.</p>
+          <a href="https://www.yahoo.com/" class="btn">Read more</a>
+          <a href="" class="hi">swipeup</a>
+          <button class="btn">Contact us</button>
+    </div>
+</body>
+</html>
